@@ -4,3 +4,15 @@
     margin: 0 auto;
     padding: 0px 15px;
     }
+.grid-columns {
+    display: grid;
+    gap:2rem;
+    margin-top:40px;
+}
+
+@media (min-width:50em) {
+    .grid-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}

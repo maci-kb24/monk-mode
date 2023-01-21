@@ -1,0 +1,57 @@
+//highlight text
+.highlight {
+    background-color: $main-color;
+    color:aliceblue;
+    padding:5px;
+}
+
+//forms
+
+//buttons
+button {
+    background-color: $main-color;
+    // padding: 10px 30px;
+    border:none;
+    border-radius:3px;
+    cursor: pointer;
+    a {
+        text-decoration: none;
+        color:aliceblue;
+        display: inline-block;
+        padding:10px 30px;
+    }
+    :hover {
+        box-shadow: 2px 3px 24px 0px rgba(255,87,51,0.75);
+    }
+}
+
+// image 
+.hero-image img {
+    display:block;
+    height:auto;
+    max-width:100%;
+}
+
+//icons
+.material-icons {
+    color:aliceblue;
+    background-color: $main-color;
+    padding:5px;
+    transform: translateY(5px);
+}
+
+.arrow {
+    transform: rotate(-95deg);
+    img {
+        height: auto;
+        width:40px;
+    }
+}
+.pricing {
+    margin-left:25px;
+}
+
+#my-form-button {
+    color:aliceblue;
+    padding:12px;
+}
