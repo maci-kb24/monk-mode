@@ -101,11 +101,11 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-.sign-up .form #my-form {
+.sign-up .form .my-form {
   max-width: 50%;
   margin: 0 auto;
 }
-.sign-up .form #my-form input {
+.sign-up .form .my-form input {
   padding: 10px 10px 10px 5px;
 }
 
@@ -174,7 +174,7 @@ button :hover {
   margin-left: 25px;
 }
 
-#my-form-button {
+.my-form-button {
   color: aliceblue;
   padding: 12px;
 }/*# sourceMappingURL=main.css.map */
