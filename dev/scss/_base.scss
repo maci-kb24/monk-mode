@@ -29,6 +29,15 @@ color: aliceblue;
 background-color: $text-color;
 } 
 
+.share-btn {
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    .fb-share-button {
+        margin:0px 0px 3px 5px;
+    }
+}
+
 .hero-content {
     & h2 {
         display: inline-block;

@@ -70,6 +70,15 @@ body {
   background-color: #333;
 }
 
+.share-btn {
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+.share-btn .fb-share-button {
+  margin: 0px 0px 3px 5px;
+}
+
 .hero-content h2 {
   display: inline-block;
   padding-left: 5px;
